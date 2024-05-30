@@ -1,82 +1,66 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #8eb6b8;
-}
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Karantina:wght@300;400;700&family=Koulen&family=Madimi+One&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-header {
-    background-color: #d1e0e0;
-    padding: 10px 0;
-}
 
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.logo img {
-    height: 40px;
-}
-
-nav ul {
-    list-style: none;
+*{
+    font-family: "Oswald";
     margin: 0;
     padding: 0;
-    display: flex;
 }
-
-nav li {
-    margin-left: 20px;
+body{
+    background-color: #66A5AD;
 }
-
-nav a {
-    text-decoration: none;
+.logo img {
+    max-width: 86px;
+    border: none;
+    border-radius:8px;
+}
+nav li  {
+    list-style: none;
+}
+nav li a{
     color: black;
-    font-weight: bold;
+    text-decoration: none;
+}
+header{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+background-color: #C4DFE6;
+border-bottom-right-radius:30px;
+border-bottom-left-radius:30px ;
 }
 
-.intro {
+nav{
+display: flex;
+gap: 36px;
+font-size: 26px;
+padding-right: 420px;
+
+}
+main{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 0 20px;
+    padding-top: 160px;
+    padding-left: 30px;
+    justify-content: space-around;
 }
 
-.intro-text {
-    max-width: 600px;
-}
-
-.intro-text h1 {
-    font-size: 36px;
-}
-
-.intro-text h1 span {
-    color: #4db5f3;
-}
-
-.intro-text p {
+.formated-paragraph {
     font-size: 18px;
     line-height: 1.6;
+    white-space: pre-line;
 }
-
-.hire-me {
-    background-color: #003d40;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
+.main-photo img{
+    max-width: 320px;
+    
 }
-
-.intro-image img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+.main-button{
+    padding-top: 20px;
+}
+.main-button input{
+    border:none ;
+    width: 160px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #003B46;
+    color: #C4DFE6;
 }
